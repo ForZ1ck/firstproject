@@ -197,3 +197,8 @@ body {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
 }
+
+.footer-vk {
+  padding-left: 38px;
+  background-image: url("img/icon-vk-footer.svg");
+}
