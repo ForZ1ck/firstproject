@@ -26,7 +26,7 @@ body {
 .page-header .container,
 .page-footer .container {
   max-width: 1408px;
-  text-align: right;
+  text-align: center;
   padding-right: 40px;
 }
 
@@ -36,6 +36,18 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.dark-theme .theme-button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  background: none;
+  background-image: url("img/sun.svg");
+}
+
+.container-button {
+  padding-left: 50px;
 }
 
 .dark-theme .header-vk {
@@ -227,6 +239,14 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+}
+
+.light-theme .theme-button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  background: none;
+  background-image: url("img/moon.svg");
 }
 
 .light-theme .header-vk {
